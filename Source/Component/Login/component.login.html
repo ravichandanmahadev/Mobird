@@ -1,0 +1,14 @@
+<form name="login" ng-submit="$ctrl.OnLogin()">
+
+<div class="form-group">
+  <h2>login<h2>
+  <label for="username">{{$ctrl.lblusername}}</label>
+  <input type="text" name="username" class="form-control" ng-model="$ctrl.UserName" ng-required="true" ng-trim="false">
+  </input>
+
+  <label for="password">{{$ctrl.lblpassword}}</label>
+  <input type="password" name="password" class="form-control" ng-model="$ctrl.Password" ng-required="true" ng-trim="false">
+  </input>
+  <button type="submit" class="btn btn-primary">{{$ctrl.lbllogin}}</button>
+</div>
+</form>

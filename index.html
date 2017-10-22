@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mobird Farm</title>
+    <link  rel='stylesheet' href="css/GoogleFonts.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="css/Main.css">
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="lib/ui-bootstrap-tpls.min.js"></script>
+
+    <script src="Source/mobird.module.js"></script>
+    <script src="Source/Service/Service.module.js"></script>
+    <script src = "Source/Service/AccountService.js"></script>
+    <script src = "Source/public/public.module.js"></script>
+    <script src = "Source/public/public.router.js"></script>
+    <script src="Source/Config/Config.Module.js"> </script>
+    <script src= "Source/Component/Component.Module.js"></script>
+
+    <script src="Source/Config/AppConfig.js"> </script>
+    <script src= "Source/Component/Header/Component.Header.js"></script>
+    <script src= "Source/Component/Footer/Component.Footer.js"></script>
+    <script src= "Source/Component/Login/Component.Login.js"></script>
+    <script src= "Source/Component/Landing/Component.Landing.js"></script>
+    <script src= "Source/Component/Home/Component.Home.js"></script>
+
+    </head>
+  <body ng-app="mobird" ng-strict-di>
+    <app-header></app-header>
+    <loading></loading>
+    <ui-view></ui-view>
+    <app-footer></app-footer>
+  </body>
+
+</html>

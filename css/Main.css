@@ -1,0 +1,133 @@
+body {
+}
+
+.banner {
+    background-color:  !important;
+    font-family: 'Permanent Marker', cursive;
+    /*font-family: 'Istok Web', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif*/;
+};
+header{
+  position: fixed;
+  background-size: cover;
+  position :fixed !important;
+  background-color: black !important;
+}
+
+.full_image_home {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Istok Web', sans-serif;
+}
+.autoImage{
+  max-width: 100%;
+  max-height: 100%;
+}
+.textDiv{
+  height: 1rem;
+}
+.navbar-default {
+    background-color: white !important;
+    border-color:  white !important;
+}
+.navbar-nav{
+  font-family: 'Permanent Marker', cursive !important;
+  font-size: 1.5em !important;
+  margin: 1.5em !important;
+}
+.fa {
+  font-size: 2em;
+  padding: 0.5em;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: black;
+}
+
+.fa-twitter {
+  color: black;
+}
+
+.fa-linkedin {
+  color: black;
+}
+
+.fa-youtube {
+  color: black;
+}
+.big_text {
+    z-index: 3;
+    width: 100%;
+    top: -45px;
+    opacity: 0.85;
+    font-weight: normal;
+    margin: 1;
+}
+
+.big_text h1{
+  font-size: 5rem;
+  font-family: 'Istok Web', cursive !important;
+  color: #638705;
+}
+.big_text h3{
+  font-size: 3rem;
+  font-family: 'Permanent Marker', cursive;
+  color: #b22d00;
+}
+.design_border {
+    margin-top: 5% !important;
+}
+.img_blog {
+  position: relative;
+  top:10%;
+  z-index: 2;
+}
+.text_blog {
+    position: relative;
+    top: 10%;
+    background: #fff;
+    color: #000;
+    padding: 30px;
+    text-align: left;
+    z-index: 2;
+}
+
+.design_border:before {
+    content: " ";
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    background: url(../Assets/border_desing_right.png);
+    bottom: 0;
+    right: -40px;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+.design_border:after {
+    content: " ";
+    position: absolute;
+    top: -25px;
+    right: 50%;
+    background: url(../Assets/border_desing_left.png);
+    bottom: 0;
+    left: -40px;
+    background-size: 100% 100%;
+    z-index: -1;
+}

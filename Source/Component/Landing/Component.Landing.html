@@ -1,0 +1,35 @@
+<!-- Slide Image Section-->
+<Section class="container">
+  <carousel interval=$ctrl.myInterval>
+        <slide ng-repeat="slide in $ctrl.slides" active="slide.active">
+          <img ng-src="{{slide.image}}" class="autoImage">
+        </slide>
+  </carousel><!-- Slide Image Section-->
+
+</section>
+<!-- Slide Image Section-->
+
+<!--Landing Page Header Section-->
+<div class="container">
+   <div class="big_text"> <h1>{{$ctrl.Header}}</h1> </div>
+     {{$ctrl.HeaderText}}
+</div>
+<!--Landing Page Header Section-->
+
+<div class="container"><br/> <br/><br/></div>
+
+<!-- Landing Page section -->
+<div class="container">
+  <div class=row  ng-repeat ="section in $ctrl.Sections">
+      <div class="col-md-5 text_blog design_border" >
+                 <div class="big_text"><h3>{{section.sectionHeader}}</h3> </div>
+                 <div class="row"> {{section.sectionText}} </div>
+                 <div class="pull-right"><button class="btn btn-warning">{{section.buttonText}}</button></div>
+       </div>
+       <div class="col-md-1"></div>
+       <div class="col-md-5 text_blog design_border"><img src="{{section.imageUrl}}" class="full_image_home"></div>
+   </div>
+</div>
+<!-- Landing Page section -->
+<br/>
+<br/>
